@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "please enter username:"
-read USERNAME #HERE USERNAME is variable
+read -s USERNAME #HERE USERNAME is variable
 echo "please enter passwd:"
-read PASSWD
+read  -s PASSWD
 echo "username is:$USERNAME, passwd is:$PASSWD"
