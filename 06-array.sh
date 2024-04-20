@@ -5,3 +5,5 @@ movies=("rrr" "gaami" "premalu")
 #indexes are 0,1,2
 #list always starts with 0.
 echo "my first movie is ${movies[0]}"
+echo "my first movie is ${movies[@]}"
+# @ means all the arrays in the list
