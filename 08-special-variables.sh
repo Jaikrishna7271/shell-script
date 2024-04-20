@@ -9,3 +9,5 @@ echo "home directory of current user: $HOME"
 echo "which user is running this script: $USER"
 echo "hostname: $HOSTNAME"
 echo "process id of current script: $$"
+sleep 60 &
+ech0 "process id of last background command: $!"
