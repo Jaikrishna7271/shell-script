@@ -9,7 +9,6 @@ R="\e[31m"
 G="\e[33m"
 N="\e[0m"
 
-echo "script startedexectuting at: $TIMESTAMP"
 
 VALIDATE(){
   if [ $1 -ne 0 ]
